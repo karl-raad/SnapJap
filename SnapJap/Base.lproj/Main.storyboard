@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DlS-V1-xWT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--viewController-->
+        <scene sceneID="ptd-4y-njS">
+            <objects>
+                <viewController title="viewController" id="gwi-YZ-dXd" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NFj-nP-5Uj"/>
+                        <viewControllerLayoutGuide type="bottom" id="tmM-Jx-bgN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uDw-lw-7Br">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ciF-rz-05K">
+                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                            </imageView>
+                            <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mVd-Eg-5t7">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Retake" id="2h4-GK-flO">
+                                        <connections>
+                                            <action selector="RetakePhoto:" destination="gwi-YZ-dXd" id="aYY-eV-aPM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Kxm-Bl-2fz"/>
+                                    <barButtonItem title="Use" id="zUa-vf-fh8">
+                                        <connections>
+                                            <action selector="usePhoto:" destination="gwi-YZ-dXd" id="1ss-CK-HV6"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="3zO-If-xgg">
+                        <nil key="title"/>
+                        <progressView key="titleView" hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" id="pkr-iG-qwS">
+                            <rect key="frame" x="8" y="21" width="304" height="2.5"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </progressView>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="ciF-rz-05K" id="I9s-C5-gWh"/>
+                        <outlet property="progressView" destination="pkr-iG-qwS" id="z6q-Yg-FsZ"/>
+                        <outlet property="retakeButton" destination="2h4-GK-flO" id="zHU-Ab-wTq"/>
+                        <outlet property="toolBar" destination="mVd-Eg-5t7" id="7KY-6l-thb"/>
+                        <outlet property="useButton" destination="zUa-vf-fh8" id="a2N-my-Biu"/>
+                        <segue destination="cgZ-gw-gWx" kind="push" identifier="webViewID" id="ABQ-uo-nmI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wws-Yp-LrR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="794" y="85"/>
+        </scene>
+        <!--webViewController-->
+        <scene sceneID="1At-3G-RRt">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4dP-Nb-LKP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController title="webViewController" id="cgZ-gw-gWx" customClass="WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Het-5B-LGf"/>
+                        <viewControllerLayoutGuide type="bottom" id="WkD-ey-FEX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tu0-8V-UIf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MPM-I7-zUZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bpE-5I-Oun"/>
+                    <connections>
+                        <outlet property="webView" destination="MPM-I7-zUZ" id="bIO-PZ-4qo"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1258" y="85"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1di-GR-lGz">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKt-io-d1r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DlS-V1-xWT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2n2-hP-2dm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gwi-YZ-dXd" kind="relationship" relationship="rootViewController" id="ku5-CP-Mqy"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="315" y="85"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

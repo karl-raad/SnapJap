@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0499A7151A3778AE00952270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499A7141A3778AE00952270 /* main.m */; };
+		0499A7181A3778AE00952270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499A7171A3778AE00952270 /* AppDelegate.m */; };
+		0499A71B1A3778AE00952270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499A71A1A3778AE00952270 /* ViewController.m */; };
+		0499A7201A3778AE00952270 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0499A71F1A3778AE00952270 /* Images.xcassets */; };
+		0499A7231A3778AE00952270 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0499A7211A3778AE00952270 /* LaunchScreen.xib */; };
+		0499A73A1A37790A00952270 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499A7391A37790A00952270 /* TesseractOCR.framework */; };
+		0499A73E1A37792E00952270 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499A73D1A37792E00952270 /* libstdc++.6.0.9.dylib */; };
+		0499A7401A37794000952270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499A73F1A37794000952270 /* Foundation.framework */; };
+		0499A7421A37795400952270 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499A7411A37795400952270 /* CoreGraphics.framework */; };
+		0499A7441A37796500952270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499A7431A37796500952270 /* UIKit.framework */; };
+		0499A74C1A38C48900952270 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 0499A74B1A38C48900952270 /* tessdata */; };
+		04AA49111A409ABB0048FC04 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AA49101A409ABB0048FC04 /* OverlayView.xib */; };
+		04AA491A1A41740C0048FC04 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AA49191A41740C0048FC04 /* CoreImage.framework */; };
+		04F355831A39A48C004B2F01 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F355821A39A48C004B2F01 /* WebViewController.m */; };
+		04F355861A39B956004B2F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F355841A39B956004B2F01 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0499A70F1A3778AE00952270 /* SnapJap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapJap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0499A7131A3778AE00952270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0499A7141A3778AE00952270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0499A7161A3778AE00952270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0499A7171A3778AE00952270 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0499A7191A3778AE00952270 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0499A71A1A3778AE00952270 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0499A71F1A3778AE00952270 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0499A7221A3778AE00952270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0499A7391A37790A00952270 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		0499A73D1A37792E00952270 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		0499A73F1A37794000952270 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation.framework; sourceTree = "<group>"; };
+		0499A7411A37795400952270 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
+		0499A7431A37796500952270 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UIKit.framework; sourceTree = "<group>"; };
+		0499A7481A377BFC00952270 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0499A74B1A38C48900952270 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		04AA49101A409ABB0048FC04 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		04AA49191A41740C0048FC04 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreImage.framework; sourceTree = "<group>"; };
+		04F355811A39963B004B2F01 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		04F355821A39A48C004B2F01 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		04F355851A39B956004B2F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0499A70C1A3778AE00952270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0499A73A1A37790A00952270 /* TesseractOCR.framework in Frameworks */,
+				0499A7441A37796500952270 /* UIKit.framework in Frameworks */,
+				0499A73E1A37792E00952270 /* libstdc++.6.0.9.dylib in Frameworks */,
+				0499A7421A37795400952270 /* CoreGraphics.framework in Frameworks */,
+				0499A7401A37794000952270 /* Foundation.framework in Frameworks */,
+				04AA491A1A41740C0048FC04 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0499A7061A3778AE00952270 = {
+			isa = PBXGroup;
+			children = (
+				0499A7111A3778AE00952270 /* SnapJap */,
+				0499A7381A3778D200952270 /* Frameworks */,
+				0499A7101A3778AE00952270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0499A7101A3778AE00952270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0499A70F1A3778AE00952270 /* SnapJap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0499A7111A3778AE00952270 /* SnapJap */ = {
+			isa = PBXGroup;
+			children = (
+				0499A74B1A38C48900952270 /* tessdata */,
+				0499A71F1A3778AE00952270 /* Images.xcassets */,
+				0499A7161A3778AE00952270 /* AppDelegate.h */,
+				0499A7171A3778AE00952270 /* AppDelegate.m */,
+				0499A7191A3778AE00952270 /* ViewController.h */,
+				0499A71A1A3778AE00952270 /* ViewController.m */,
+				04F355811A39963B004B2F01 /* WebViewController.h */,
+				04F355821A39A48C004B2F01 /* WebViewController.m */,
+				0499A7211A3778AE00952270 /* LaunchScreen.xib */,
+				04AA49101A409ABB0048FC04 /* OverlayView.xib */,
+				04F355841A39B956004B2F01 /* Main.storyboard */,
+				0499A7121A3778AE00952270 /* Supporting Files */,
+			);
+			path = SnapJap;
+			sourceTree = "<group>";
+		};
+		0499A7121A3778AE00952270 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0499A7131A3778AE00952270 /* Info.plist */,
+				0499A7141A3778AE00952270 /* main.m */,
+				0499A7481A377BFC00952270 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0499A7381A3778D200952270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AA49191A41740C0048FC04 /* CoreImage.framework */,
+				0499A7431A37796500952270 /* UIKit.framework */,
+				0499A7411A37795400952270 /* CoreGraphics.framework */,
+				0499A73F1A37794000952270 /* Foundation.framework */,
+				0499A73D1A37792E00952270 /* libstdc++.6.0.9.dylib */,
+				0499A7391A37790A00952270 /* TesseractOCR.framework */,
+			);
+			path = Frameworks;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0499A70E1A3778AE00952270 /* SnapJap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0499A7321A3778AE00952270 /* Build configuration list for PBXNativeTarget "SnapJap" */;
+			buildPhases = (
+				0499A70B1A3778AE00952270 /* Sources */,
+				0499A70C1A3778AE00952270 /* Frameworks */,
+				0499A70D1A3778AE00952270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapJap;
+			productName = SnapJap;
+			productReference = 0499A70F1A3778AE00952270 /* SnapJap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0499A7071A3778AE00952270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Karl;
+				TargetAttributes = {
+					0499A70E1A3778AE00952270 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = NC5FY997M8;
+					};
+				};
+			};
+			buildConfigurationList = 0499A70A1A3778AE00952270 /* Build configuration list for PBXProject "SnapJap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0499A7061A3778AE00952270;
+			productRefGroup = 0499A7101A3778AE00952270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0499A70E1A3778AE00952270 /* SnapJap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0499A70D1A3778AE00952270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0499A74C1A38C48900952270 /* tessdata in Resources */,
+				0499A7231A3778AE00952270 /* LaunchScreen.xib in Resources */,
+				04AA49111A409ABB0048FC04 /* OverlayView.xib in Resources */,
+				0499A7201A3778AE00952270 /* Images.xcassets in Resources */,
+				04F355861A39B956004B2F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0499A70B1A3778AE00952270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0499A71B1A3778AE00952270 /* ViewController.m in Sources */,
+				0499A7181A3778AE00952270 /* AppDelegate.m in Sources */,
+				0499A7151A3778AE00952270 /* main.m in Sources */,
+				04F355831A39A48C004B2F01 /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0499A7211A3778AE00952270 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0499A7221A3778AE00952270 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		04F355841A39B956004B2F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F355851A39B956004B2F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0499A7301A3778AE00952270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0499A7311A3778AE00952270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0499A7331A3778AE00952270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SnapJap/PrefixHeader.pch;
+				INFOPLIST_FILE = SnapJap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karl.SnapJap;
+				PRODUCT_NAME = SnapJap;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0499A7341A3778AE00952270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SnapJap/PrefixHeader.pch;
+				INFOPLIST_FILE = SnapJap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karl.SnapJap;
+				PRODUCT_NAME = SnapJap;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0499A70A1A3778AE00952270 /* Build configuration list for PBXProject "SnapJap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0499A7301A3778AE00952270 /* Debug */,
+				0499A7311A3778AE00952270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0499A7321A3778AE00952270 /* Build configuration list for PBXNativeTarget "SnapJap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0499A7331A3778AE00952270 /* Debug */,
+				0499A7341A3778AE00952270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0499A7071A3778AE00952270 /* Project object */;
+}
